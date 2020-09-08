@@ -2,7 +2,7 @@
 This repo contains my projects about CGM data analysis for Data Mining coursework.
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   Data_Set  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%   Data_Set  %%%%%%%%%%%%%%
 The .csv files are the data set used in assignment anything mentioned as "output***.csv" files has predicted output.
 
 The following are the input data that has been widely used.
@@ -13,7 +13,7 @@ The following are the input data that has been widely used.
 
 The data has not been disclosed due to copyrights, MAYO clinic has been primary data source
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ASSIGNMENT 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% ASSIGNMENT 1 %%%%%%%%%%%%%%%
 
 1.	Extracted 4 different types of time series features from only the CGM data cell array and CGM timestamp cell array 
 2.	Inutution behind the selection of these features has been validated
@@ -23,7 +23,7 @@ For example: If there are 75 time series and your feature length after concatena
 This helped to choose the top 5 features that could completely explain the data and plot them for each time series.
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ASSIGNMENT 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% ASSIGNMENT 2 %%%%%%%%%%%%
 
 
 1.	Extracted the features from Meal and No Meal data
@@ -32,7 +32,7 @@ This helped to choose the top 5 features that could completely explain the data 
 4.	Wrote a function that takes one test sample as input and outputs 1 if it predicts the test sample as meal or 0 if it predicts test sample as No meal. 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ASSIGNMENT 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% ASSIGNMENT 3 %%%%%%%%%%%%%%%
 
 "TrainingFile.m" is used to extract features, allocate bins based on cost matrix of relativity with ground truth
  and models have been trained using these features with class variables.
